@@ -1,8 +1,10 @@
+import Layout from "@/components/ui/layout"
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold">
-      App
-    </h1>
+    <Layout sidebar={<div>Sidebar</div>}>
+      <h1>Content</h1>
+    </Layout>
   )
 }
 
