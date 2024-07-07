@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 
 const Sidebar = ({ onClick }) => {
   const buttons = [
-    "Chart 1",
+    "Area Chart",
     "Chart 2"
   ]
 

@@ -3,11 +3,12 @@ import { useState } from "react"
 import Layout from "@/components/ui/layout"
 import Sidebar from "@/components/ui/sidebar"
 
-const Chart1 = () => <div>Chart 1</div>
+import AreaChart from "@/components/ui/charts/area-chart"
+
 const Chart2 = () => <div>Chart 2</div>
 
 const charts = [
-  Chart1,
+  AreaChart,
   Chart2
 ]
 
