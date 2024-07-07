@@ -5,10 +5,12 @@ import Sidebar from "@/components/ui/sidebar"
 
 import AreaChart from "@/components/ui/charts/area-chart"
 import LinearAreaChart from "@/components/ui/charts/linear-area-chart"
+import StepAreaChart from "@/components/ui/charts/step-area-chart"
 
 const charts = [
   AreaChart,
-  LinearAreaChart
+  LinearAreaChart,
+  StepAreaChart
 ]
 
 function App() {

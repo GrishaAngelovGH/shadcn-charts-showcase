@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button"
 const Sidebar = ({ onClick }) => {
   const buttons = [
     "Area Chart",
-    "Linear Area Chart"
+    "Linear Area Chart",
+    "Step Area Chart"
   ]
 
   return (
