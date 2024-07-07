@@ -4,7 +4,8 @@ const Sidebar = ({ onClick }) => {
   const buttons = [
     "Area Chart",
     "Linear Area Chart",
-    "Step Area Chart"
+    "Step Area Chart",
+    "Stacked Area Chart"
   ]
 
   return (
