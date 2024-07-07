@@ -4,12 +4,11 @@ import Layout from "@/components/ui/layout"
 import Sidebar from "@/components/ui/sidebar"
 
 import AreaChart from "@/components/ui/charts/area-chart"
-
-const Chart2 = () => <div>Chart 2</div>
+import LinearAreaChart from "@/components/ui/charts/linear-area-chart"
 
 const charts = [
   AreaChart,
-  Chart2
+  LinearAreaChart
 ]
 
 function App() {
