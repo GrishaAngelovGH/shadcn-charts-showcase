@@ -17,6 +17,7 @@ import MixedBarChart from "./bar-charts/mixed-bar-chart"
 import StackedLegendBarChart from "./bar-charts/stacked-legend-bar-chart"
 import ActiveBarChart from "./bar-charts/active-bar-chart"
 import NegativeBarChart from "./bar-charts/negative-bar-chart"
+import InteractiveBarChart from "./bar-charts/interactive-bar-chart"
 
 const charts = [
   AreaChart,
@@ -36,7 +37,8 @@ const charts = [
   MixedBarChart,
   StackedLegendBarChart,
   ActiveBarChart,
-  NegativeBarChart
+  NegativeBarChart,
+  InteractiveBarChart
 ]
 
 export default charts
