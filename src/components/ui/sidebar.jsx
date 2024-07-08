@@ -22,7 +22,8 @@ const Sidebar = ({ onClick }) => {
       buttons: [
         { label: "Bar Chart", value: 10 },
         { label: "Horizontal Bar Chart", value: 11 },
-        { label: "Multiple Bar Chart", value: 12 }
+        { label: "Multiple Bar Chart", value: 12 },
+        { label: "Label Bar Chart", value: 13 }
       ]
     }
   ]
