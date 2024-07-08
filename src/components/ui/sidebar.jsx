@@ -26,7 +26,8 @@ const Sidebar = ({ onClick }) => {
         { label: "Label Bar Chart", value: 13 },
         { label: "Mixed Bar Chart", value: 14 },
         { label: "Stacked Legend Bar Chart", value: 15 },
-        { label: "Active Bar Chart", value: 16 }
+        { label: "Active Bar Chart", value: 16 },
+        { label: "Negative Bar Chart", value: 17 }
       ]
     }
   ]
@@ -42,7 +43,7 @@ const Sidebar = ({ onClick }) => {
             {
               v.buttons.map(({ label, value }) => (
                 <Button
-                  key={i}
+                  key={value}
                   onClick={() => { onClick(value) }}
                   variant="secondary"
                   className="mt-2 w-full"
