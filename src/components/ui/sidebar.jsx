@@ -5,16 +5,22 @@ const Sidebar = ({ onClick }) => {
     {
       label: "Area Charts",
       buttons: [
-        "Area Chart",
-        "Linear Area Chart",
-        "Step Area Chart",
-        "Stacked Area Chart",
-        "Stacked Expanded Area Chart",
-        "Legend Area Chart",
-        "Icons Area Chart",
-        "Gradient Area Chart",
-        "Axes Area Chart",
-        "Interactive Area Chart"
+        { label: "Area Chart", value: 0 },
+        { label: "Linear Area Chart", value: 1 },
+        { label: "Step Area Chart", value: 2 },
+        { label: "Stacked Area Chart", value: 3 },
+        { label: "Stacked Expanded Area Chart", value: 4 },
+        { label: "Legend Area Chart", value: 5 },
+        { label: "Icons Area Chart", value: 6 },
+        { label: "Gradient Area Chart", value: 7 },
+        { label: "Axes Area Chart", value: 8 },
+        { label: "Interactive Area Chart", value: 9 }
+      ]
+    },
+    {
+      label: "Bar Charts",
+      buttons: [
+        { label: "Bar Chart", value: 10 }
       ]
     }
   ]
@@ -28,14 +34,14 @@ const Sidebar = ({ onClick }) => {
               {v.label} ({v.buttons.length})
             </div>
             {
-              v.buttons.map((v, i) => (
+              v.buttons.map(({ label, value }) => (
                 <Button
                   key={i}
-                  onClick={() => { onClick(i) }}
+                  onClick={() => { onClick(value) }}
                   variant="secondary"
                   className="mt-2 w-full"
                 >
-                  {v}
+                  {label}
                 </Button>
               ))
             }

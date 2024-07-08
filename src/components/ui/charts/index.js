@@ -9,6 +9,8 @@ import GradientAreaChart from "./area-charts/gradient-area-chart"
 import AxesAreaChart from "./area-charts/axes-area-chart"
 import InteractiveAreaChart from "./area-charts/interactive-area-chart"
 
+import BarChart from "./bar-charts/bar-chart"
+
 const charts = [
   AreaChart,
   LinearAreaChart,
@@ -19,7 +21,8 @@ const charts = [
   IconsAreaChart,
   GradientAreaChart,
   AxesAreaChart,
-  InteractiveAreaChart
+  InteractiveAreaChart,
+  BarChart
 ]
 
 export default charts
