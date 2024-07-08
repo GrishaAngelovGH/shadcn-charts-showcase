@@ -6,7 +6,8 @@ const Sidebar = ({ onClick }) => {
     "Linear Area Chart",
     "Step Area Chart",
     "Stacked Area Chart",
-    "Stacked Expanded Area Chart"
+    "Stacked Expanded Area Chart",
+    "Legend Area Chart"
   ]
 
   return (
