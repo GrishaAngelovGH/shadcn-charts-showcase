@@ -25,7 +25,8 @@ const Sidebar = ({ onClick }) => {
         { label: "Multiple Bar Chart", value: 12 },
         { label: "Label Bar Chart", value: 13 },
         { label: "Mixed Bar Chart", value: 14 },
-        { label: "Stacked Legend Bar Chart", value: 15 }
+        { label: "Stacked Legend Bar Chart", value: 15 },
+        { label: "Active Bar Chart", value: 16 }
       ]
     }
   ]
