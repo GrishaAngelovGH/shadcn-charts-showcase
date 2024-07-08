@@ -6,6 +6,7 @@ import StackedExpandedAreaChart from "./stacked-expanded-area-chart"
 import LegendAreaChart from "./legend-area-chart"
 import IconsAreaChart from "./icons-area-chart"
 import GradientAreaChart from "./gradient-area-chart"
+import AxesAreaChart from "./axes-area-chart"
 
 const charts = [
   AreaChart,
@@ -15,7 +16,8 @@ const charts = [
   StackedExpandedAreaChart,
   LegendAreaChart,
   IconsAreaChart,
-  GradientAreaChart
+  GradientAreaChart,
+  AxesAreaChart
 ]
 
 export default charts
