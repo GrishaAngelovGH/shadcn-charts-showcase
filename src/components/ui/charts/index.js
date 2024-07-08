@@ -11,6 +11,7 @@ import InteractiveAreaChart from "./area-charts/interactive-area-chart"
 
 import BarChart from "./bar-charts/bar-chart"
 import HorizontalBarChart from "./bar-charts/horizontal-bar-chart"
+import MultipleBarChart from "./bar-charts/multiple-bar-chart"
 
 const charts = [
   AreaChart,
@@ -24,7 +25,8 @@ const charts = [
   AxesAreaChart,
   InteractiveAreaChart,
   BarChart,
-  HorizontalBarChart
+  HorizontalBarChart,
+  MultipleBarChart
 ]
 
 export default charts
