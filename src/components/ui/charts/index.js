@@ -13,6 +13,7 @@ import BarChart from "./bar-charts/bar-chart"
 import HorizontalBarChart from "./bar-charts/horizontal-bar-chart"
 import MultipleBarChart from "./bar-charts/multiple-bar-chart"
 import LabelBarChart from "./bar-charts/label-bar-chart"
+import MixedBarChart from "./bar-charts/mixed-bar-chart"
 
 const charts = [
   AreaChart,
@@ -28,7 +29,8 @@ const charts = [
   BarChart,
   HorizontalBarChart,
   MultipleBarChart,
-  LabelBarChart
+  LabelBarChart,
+  MixedBarChart
 ]
 
 export default charts

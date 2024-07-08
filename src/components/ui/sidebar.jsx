@@ -23,7 +23,8 @@ const Sidebar = ({ onClick }) => {
         { label: "Bar Chart", value: 10 },
         { label: "Horizontal Bar Chart", value: 11 },
         { label: "Multiple Bar Chart", value: 12 },
-        { label: "Label Bar Chart", value: 13 }
+        { label: "Label Bar Chart", value: 13 },
+        { label: "Mixed Bar Chart", value: 14 }
       ]
     }
   ]
