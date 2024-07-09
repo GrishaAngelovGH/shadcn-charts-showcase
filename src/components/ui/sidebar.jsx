@@ -51,6 +51,7 @@ const Sidebar = ({ onClick }) => {
       label: "Pie Charts",
       buttons: [
         { label: "Pie Chart", value: 30 },
+        { label: "Separator None Pie Chart", value: 31 },
       ]
     }
   ]
