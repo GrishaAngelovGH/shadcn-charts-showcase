@@ -21,6 +21,7 @@ import NegativeBarChart from "./bar-charts/negative-bar-chart"
 import InteractiveBarChart from "./bar-charts/interactive-bar-chart"
 
 import LineChart from "./line-charts/line-chart"
+import LinearLineChart from "./line-charts/linear-line-chart"
 
 const charts = [
   AreaChart,
@@ -43,7 +44,8 @@ const charts = [
   ActiveBarChart,
   NegativeBarChart,
   InteractiveBarChart,
-  LineChart
+  LineChart,
+  LinearLineChart
 ]
 
 export default charts
