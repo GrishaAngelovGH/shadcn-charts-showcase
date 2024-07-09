@@ -28,6 +28,7 @@ import DotsLineChart from "./line-charts/dots-line-chart"
 import CustomDotsLineChart from "./line-charts/custom-dots-line-chart"
 import DotsColorsLineChart from "./line-charts/dots-colors-line-chart"
 import LabelLineChart from "./line-charts/label-line-chart"
+import CustomLabelLineChart from "./line-charts/custom-label-line-chart"
 
 const charts = [
   AreaChart,
@@ -57,7 +58,8 @@ const charts = [
   DotsLineChart,
   CustomDotsLineChart,
   DotsColorsLineChart,
-  LabelLineChart
+  LabelLineChart,
+  CustomLabelLineChart
 ]
 
 export default charts
