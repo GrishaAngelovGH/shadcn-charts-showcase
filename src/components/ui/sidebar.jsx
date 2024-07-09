@@ -24,11 +24,12 @@ const Sidebar = ({ onClick }) => {
         { label: "Horizontal Bar Chart", value: 11 },
         { label: "Multiple Bar Chart", value: 12 },
         { label: "Label Bar Chart", value: 13 },
-        { label: "Mixed Bar Chart", value: 14 },
-        { label: "Stacked Legend Bar Chart", value: 15 },
-        { label: "Active Bar Chart", value: 16 },
-        { label: "Negative Bar Chart", value: 17 },
-        { label: "Interactive Bar Chart", value: 18 }
+        { label: "Custom Bar Chart", value: 14 },
+        { label: "Mixed Bar Chart", value: 15 },
+        { label: "Stacked Legend Bar Chart", value: 16 },
+        { label: "Active Bar Chart", value: 17 },
+        { label: "Negative Bar Chart", value: 18 },
+        { label: "Interactive Bar Chart", value: 19 }
       ]
     }
   ]
