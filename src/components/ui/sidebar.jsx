@@ -46,6 +46,12 @@ const Sidebar = ({ onClick }) => {
         { label: "Custom Label Line Chart", value: 28 },
         { label: "Interactive Line Chart", value: 29 }
       ]
+    },
+    {
+      label: "Pie Charts",
+      buttons: [
+        { label: "Pie Chart", value: 30 },
+      ]
     }
   ]
 
