@@ -33,6 +33,7 @@ import InteractiveLineChart from "./line-charts/interactive-line-chart"
 
 import PieChart from "./pie-charts/pie-chart"
 import SeparatorNonePieChart from "./pie-charts/separator-none-pie-chart"
+import LabelPieChart from "./pie-charts/label-pie-chart"
 
 const charts = [
   AreaChart,
@@ -66,7 +67,8 @@ const charts = [
   CustomLabelLineChart,
   InteractiveLineChart,
   PieChart,
-  SeparatorNonePieChart
+  SeparatorNonePieChart,
+  LabelPieChart
 ]
 
 export default charts
