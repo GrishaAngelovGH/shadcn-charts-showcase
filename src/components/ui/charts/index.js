@@ -20,6 +20,8 @@ import ActiveBarChart from "./bar-charts/active-bar-chart"
 import NegativeBarChart from "./bar-charts/negative-bar-chart"
 import InteractiveBarChart from "./bar-charts/interactive-bar-chart"
 
+import LineChart from "./line-charts/line-chart"
+
 const charts = [
   AreaChart,
   LinearAreaChart,
@@ -40,7 +42,8 @@ const charts = [
   StackedLegendBarChart,
   ActiveBarChart,
   NegativeBarChart,
-  InteractiveBarChart
+  InteractiveBarChart,
+  LineChart
 ]
 
 export default charts

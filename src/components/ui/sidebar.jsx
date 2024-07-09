@@ -31,6 +31,12 @@ const Sidebar = ({ onClick }) => {
         { label: "Negative Bar Chart", value: 18 },
         { label: "Interactive Bar Chart", value: 19 }
       ]
+    },
+    {
+      label: "Line Charts",
+      buttons: [
+        { label: "Line Chart", value: 20 },
+      ]
     }
   ]
 
