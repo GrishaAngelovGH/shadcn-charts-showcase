@@ -35,6 +35,7 @@ import PieChart from "./pie-charts/pie-chart"
 import SeparatorNonePieChart from "./pie-charts/separator-none-pie-chart"
 import LabelPieChart from "./pie-charts/label-pie-chart"
 import CustomLabelPieChart from "./pie-charts/custom-label-pie-chart"
+import LabelListPieChart from "./pie-charts/label-list-pie-chart"
 
 const charts = [
   AreaChart,
@@ -70,7 +71,8 @@ const charts = [
   PieChart,
   SeparatorNonePieChart,
   LabelPieChart,
-  CustomLabelPieChart
+  CustomLabelPieChart,
+  LabelListPieChart
 ]
 
 export default charts
