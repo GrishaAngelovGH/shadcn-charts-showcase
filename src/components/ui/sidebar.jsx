@@ -37,7 +37,8 @@ const Sidebar = ({ onClick }) => {
       buttons: [
         { label: "Line Chart", value: 20 },
         { label: "Linear Line Chart", value: 21 },
-        { label: "Step Line Chart", value: 22 }
+        { label: "Step Line Chart", value: 22 },
+        { label: "Multiple Line Chart", value: 23 }
       ]
     }
   ]
