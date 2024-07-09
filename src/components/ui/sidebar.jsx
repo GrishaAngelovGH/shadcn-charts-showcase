@@ -43,7 +43,8 @@ const Sidebar = ({ onClick }) => {
         { label: "Custom Dots Line Chart", value: 25 },
         { label: "Dots Colors Line Chart", value: 26 },
         { label: "Label Line Chart", value: 27 },
-        { label: "Custom Label Line Chart", value: 28 }
+        { label: "Custom Label Line Chart", value: 28 },
+        { label: "Interactive Line Chart", value: 29 }
       ]
     }
   ]
