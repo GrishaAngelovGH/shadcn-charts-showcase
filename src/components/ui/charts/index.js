@@ -26,6 +26,7 @@ import StepLineChart from "./line-charts/step-line-chart"
 import MultipleLineChart from "./line-charts/multiple-line-chart"
 import DotsLineChart from "./line-charts/dots-line-chart"
 import CustomDotsLineChart from "./line-charts/custom-dots-line-chart"
+import DotsColorsLineChart from "./line-charts/dots-colors-line-chart"
 
 const charts = [
   AreaChart,
@@ -53,7 +54,8 @@ const charts = [
   StepLineChart,
   MultipleLineChart,
   DotsLineChart,
-  CustomDotsLineChart
+  CustomDotsLineChart,
+  DotsColorsLineChart
 ]
 
 export default charts
