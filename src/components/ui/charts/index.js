@@ -22,6 +22,7 @@ import InteractiveBarChart from "./bar-charts/interactive-bar-chart"
 
 import LineChart from "./line-charts/line-chart"
 import LinearLineChart from "./line-charts/linear-line-chart"
+import StepLineChart from "./line-charts/step-line-chart"
 
 const charts = [
   AreaChart,
@@ -45,7 +46,8 @@ const charts = [
   NegativeBarChart,
   InteractiveBarChart,
   LineChart,
-  LinearLineChart
+  LinearLineChart,
+  StepLineChart
 ]
 
 export default charts
