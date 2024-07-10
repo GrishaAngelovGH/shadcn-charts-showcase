@@ -43,6 +43,8 @@ import DoughnutWithTextPieChart from "./pie-charts/doughnut-with-text-pie-chart"
 import StackedPieChart from "./pie-charts/stacked-pie-chart"
 import InteractivePieChart from "./pie-charts/interactive-pie-chart"
 
+import RadarChart from "./radar-charts/radar-chart"
+
 const charts = [
   AreaChart,
   LinearAreaChart,
@@ -84,7 +86,8 @@ const charts = [
   ActiveDoughnutPieChart,
   DoughnutWithTextPieChart,
   StackedPieChart,
-  InteractivePieChart
+  InteractivePieChart,
+  RadarChart
 ]
 
 export default charts
