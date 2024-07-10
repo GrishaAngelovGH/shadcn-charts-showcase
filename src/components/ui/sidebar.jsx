@@ -55,6 +55,7 @@ const Sidebar = ({ onClick }) => {
         { label: "Label Pie Chart", value: 32 },
         { label: "Custom Label Pie Chart", value: 33 },
         { label: "Label List Pie Chart", value: 34 },
+        { label: "Legend Pie Chart", value: 35 },
       ]
     }
   ]
