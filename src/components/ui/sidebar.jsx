@@ -69,6 +69,7 @@ const Sidebar = ({ onClick }) => {
         { label: "Radar Chart", value: 41 },
         { label: "Dots Radar Chart", value: 42 },
         { label: "Multiple Radar Chart", value: 43 },
+        { label: "Lines Only Radar Chart", value: 44 },
       ]
     }
   ]
