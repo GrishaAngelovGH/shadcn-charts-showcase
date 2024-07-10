@@ -51,6 +51,7 @@ import CustomLabelRadarChart from "./radar-charts/custom-label-radar-chart"
 import RadiusAxisRadarChart from "./radar-charts/radius-axis-radar-chart"
 import GridCustomRadarChart from "./radar-charts/grid-custom-radar-chart"
 import GridFilledRadarChart from "./radar-charts/grid-filled-radar-chart"
+import GridNoneRadarChart from "./radar-charts/grid-none-radar-chart"
 
 const charts = [
   AreaChart,
@@ -101,7 +102,8 @@ const charts = [
   CustomLabelRadarChart,
   RadiusAxisRadarChart,
   GridCustomRadarChart,
-  GridFilledRadarChart
+  GridFilledRadarChart,
+  GridNoneRadarChart
 ]
 
 export default charts
