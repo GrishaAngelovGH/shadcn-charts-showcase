@@ -49,6 +49,7 @@ import MultipleRadarChart from "./radar-charts/multiple-radar-chart"
 import LinesOnlyRadarChart from "./radar-charts/lines-only-radar-chart"
 import CustomLabelRadarChart from "./radar-charts/custom-label-radar-chart"
 import RadiusAxisRadarChart from "./radar-charts/radius-axis-radar-chart"
+import GridCustomRadarChart from "./radar-charts/grid-custom-radar-chart"
 
 const charts = [
   AreaChart,
@@ -97,7 +98,8 @@ const charts = [
   MultipleRadarChart,
   LinesOnlyRadarChart,
   CustomLabelRadarChart,
-  RadiusAxisRadarChart
+  RadiusAxisRadarChart,
+  GridCustomRadarChart
 ]
 
 export default charts
