@@ -73,6 +73,7 @@ const Sidebar = ({ onClick }) => {
         { label: "Custom Label Radar Chart", value: 45 },
         { label: "Radius Axis Radar Chart", value: 46 },
         { label: "Grid Custom Radar Chart", value: 47 },
+        { label: "Grid Filled Radar Chart", value: 48 },
       ]
     }
   ]
