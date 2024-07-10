@@ -40,6 +40,7 @@ import LegendPieChart from "./pie-charts/legend-pie-chart"
 import DoughnutPieChart from "./pie-charts/doughnut-pie-chart"
 import ActiveDoughnutPieChart from "./pie-charts/active-doughnut-pie-chart"
 import DoughnutWithTextPieChart from "./pie-charts/doughnut-with-text-pie-chart"
+import StackedPieChart from "./pie-charts/stacked-pie-chart"
 
 const charts = [
   AreaChart,
@@ -80,7 +81,8 @@ const charts = [
   LegendPieChart,
   DoughnutPieChart,
   ActiveDoughnutPieChart,
-  DoughnutWithTextPieChart
+  DoughnutWithTextPieChart,
+  StackedPieChart
 ]
 
 export default charts

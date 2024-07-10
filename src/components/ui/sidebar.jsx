@@ -59,6 +59,7 @@ const Sidebar = ({ onClick }) => {
         { label: "Doughnut Pie Chart", value: 36 },
         { label: "Active Doughnut Pie Chart", value: 37 },
         { label: "Doughnut With Text Pie Chart", value: 38 },
+        { label: "Stacked Pie Chart", value: 39 },
       ]
     }
   ]
