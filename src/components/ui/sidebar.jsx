@@ -103,6 +103,7 @@ const Sidebar = ({ onClick }) => {
         { label: "Label Formatter Tooltip", value: 65 },
         { label: "No Label Tooltip", value: 66 },
         { label: "Formatter Tooltip", value: 67 },
+        { label: "Icons Tooltip", value: 68 },
       ]
     }
   ]
