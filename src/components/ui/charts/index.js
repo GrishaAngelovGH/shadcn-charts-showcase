@@ -73,6 +73,7 @@ import LabelFormatterTooltip from "./tooltips/label-formatter-tooltip"
 import NoLabelTooltip from "./tooltips/no-label-tooltip"
 import FormatterTooltip from "./tooltips/formatter-tooltip"
 import IconsTooltip from "./tooltips/icons-tooltip"
+import AdvancedTooltip from "./tooltips/advanced-tooltip"
 
 const charts = [
   AreaChart,
@@ -143,7 +144,8 @@ const charts = [
   LabelFormatterTooltip,
   NoLabelTooltip,
   FormatterTooltip,
-  IconsTooltip
+  IconsTooltip,
+  AdvancedTooltip
 ]
 
 export default charts
