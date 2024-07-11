@@ -67,6 +67,7 @@ import StackedRadialChart from "./radial-charts/stacked-radial-chart"
 
 import DefaultTooltip from "./tooltips/default-tooltip"
 import LineIndicatorTooltip from "./tooltips/line-indicator-tooltip"
+import NoIndicatorTooltip from "./tooltips/no-indicator-tooltip"
 
 const charts = [
   AreaChart,
@@ -131,7 +132,8 @@ const charts = [
   ShapeRadialChart,
   StackedRadialChart,
   DefaultTooltip,
-  LineIndicatorTooltip
+  LineIndicatorTooltip,
+  NoIndicatorTooltip
 ]
 
 export default charts
