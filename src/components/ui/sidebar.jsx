@@ -88,6 +88,7 @@ const Sidebar = ({ onClick }) => {
         { label: "Radial Chart", value: 55 },
         { label: "Label Radial Chart", value: 56 },
         { label: "Grid Radial Chart", value: 57 },
+        { label: "Text Radial Chart", value: 58 },
       ]
     }
   ]
