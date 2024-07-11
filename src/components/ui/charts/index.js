@@ -62,6 +62,7 @@ import RadialChart from "./radial-charts/radial-chart"
 import LabelRadialChart from "./radial-charts/label-radial-chart"
 import GridRadialChart from "./radial-charts/grid-radial-chart"
 import TextRadialChart from "./radial-charts/text-radial-chart"
+import ShapeRadialChart from "./radial-charts/shape-radial-chart"
 
 const charts = [
   AreaChart,
@@ -122,7 +123,8 @@ const charts = [
   RadialChart,
   LabelRadialChart,
   GridRadialChart,
-  TextRadialChart
+  TextRadialChart,
+  ShapeRadialChart
 ]
 
 export default charts
