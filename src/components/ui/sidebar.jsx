@@ -79,6 +79,7 @@ const Sidebar = ({ onClick }) => {
         { label: "No Lines Grid Circle Radar Chart", value: 51 },
         { label: "Grid Circle Filled Radar Chart", value: 52 },
         { label: "Legend Radar Chart", value: 53 },
+        { label: "Icons Radar Chart", value: 54 },
       ]
     }
   ]
