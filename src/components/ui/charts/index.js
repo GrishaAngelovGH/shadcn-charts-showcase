@@ -55,6 +55,7 @@ import GridNoneRadarChart from "./radar-charts/grid-none-radar-chart"
 import GridCircleRadarChart from "./radar-charts/grid-circle-radar-chart"
 import NoLinesGridCircleRadarChart from "./radar-charts/no-lines-grid-circle-radar-chart"
 import GridCircleFilledRadarChart from "./radar-charts/grid-circle-filled-radar-chart"
+import LegendRadarChart from "./radar-charts/legend-radar-chart"
 
 const charts = [
   AreaChart,
@@ -109,7 +110,8 @@ const charts = [
   GridNoneRadarChart,
   GridCircleRadarChart,
   NoLinesGridCircleRadarChart,
-  GridCircleFilledRadarChart
+  GridCircleFilledRadarChart,
+  LegendRadarChart
 ]
 
 export default charts
