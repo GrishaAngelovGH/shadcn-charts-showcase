@@ -90,6 +90,7 @@ const Sidebar = ({ onClick }) => {
         { label: "Grid Radial Chart", value: 57 },
         { label: "Text Radial Chart", value: 58 },
         { label: "Shape Radial Chart", value: 59 },
+        { label: "Stacked Radial Chart", value: 60 },
       ]
     }
   ]
