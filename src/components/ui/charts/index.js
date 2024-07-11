@@ -60,6 +60,7 @@ import IconsRadarChart from "./radar-charts/icons-radar-chart"
 
 import RadialChart from "./radial-charts/radial-chart"
 import LabelRadialChart from "./radial-charts/label-radial-chart"
+import GridRadialChart from "./radial-charts/grid-radial-chart"
 
 const charts = [
   AreaChart,
@@ -118,7 +119,8 @@ const charts = [
   LegendRadarChart,
   IconsRadarChart,
   RadialChart,
-  LabelRadialChart
+  LabelRadialChart,
+  GridRadialChart
 ]
 
 export default charts
